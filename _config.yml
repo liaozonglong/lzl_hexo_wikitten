@@ -99,11 +99,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: Wikitten
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
-
 ## Markdown
 ## https://github.com/hexojs/hexo-renderer-marked
 marked:
