@@ -137,3 +137,10 @@ nofollow:
   enable: false
   exclude:
     - <your site url domain> # eg: zthxxx.me
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repository: git@github.com:liaozonglong/liaozonglong.github.io.git
+  branch: master
