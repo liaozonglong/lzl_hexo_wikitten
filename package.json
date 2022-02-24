@@ -40,7 +40,7 @@
     "login": "hihm4o",
     "repo": "wr8hfg",
     "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque/"
+    "postPath": "source/_posts/"
   },
   "activationEvents": [
     "onCustomEditor:yuqueEditor.yuque"
