@@ -1,0 +1,48 @@
+{
+  "name": "hexo-theme-Wikitten",
+  "version": "0.1.2",
+  "description": "A personal wiki imitate Wikitten style for Hexo",
+  "keywords": [
+    "hexo",
+    "theme",
+    "wiki",
+    "personal"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "6.0.0"
+  },
+  "dependencies": {
+    "hexo": "^6.0.0",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-directory-category": "^1.0.5",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^1.2.2",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-json-content": "^3.0.1",
+    "hexo-generator-sitemap": "^2.2.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^5.0.0",
+    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-server": "^3.0.0"
+  },
+  "yuqueConfig": {
+    "baseUrl": "https://liaozonglong.yuque.com/api/v2",
+    "login": "hihm4o",
+    "repo": "wr8hfg",
+    "mdNameFormat": "title",
+    "postPath": "source/_posts/yuque/"
+  },
+  "activationEvents": [
+    "onCustomEditor:yuqueEditor.yuque"
+  ]
+}
