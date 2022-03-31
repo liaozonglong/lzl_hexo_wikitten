@@ -139,3 +139,6 @@ deploy:
   type: git
   repository: git@github.com:liaozonglong/liaozonglong.github.io.git
   branch: master
+
+encrypt:
+  password: liao1088
