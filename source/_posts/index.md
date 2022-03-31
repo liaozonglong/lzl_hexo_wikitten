@@ -1,0 +1,3 @@
+title: "post"
+layout: "post"
+---
