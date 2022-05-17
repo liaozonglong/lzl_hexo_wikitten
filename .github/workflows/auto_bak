@@ -3,9 +3,8 @@
 name: Hexo Blog CI
 # master branch on push, auto run
 on:
-  workflow_dispatch:
-  #schedule:
-    #- cron:  '0 1 * * *'
+  schedule:
+    - cron:  '0 1 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
