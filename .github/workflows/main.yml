@@ -3,8 +3,10 @@
 name: Hexo Blog CI
 # master branch on push, auto run
 on:
-  schedule:
-    - cron:  '0 1 * * *'
+  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron:  '0 1 * * *'
 
 #on: repository_dispatch  停用触发模式
 
