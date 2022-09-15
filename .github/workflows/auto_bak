@@ -1,6 +1,6 @@
 # workflow name
 
-name: Hexo Blog CI
+name: Hexo Blog CI_auto_bak
 # master branch on push, auto run
 on:
   schedule:
