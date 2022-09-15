@@ -4,12 +4,9 @@ name: Hexo Blog CI
 # master branch on push, auto run
 # on:
 #   workflow_dispatch:
-# on:
-#   schedule:
-#     - cron:  '0 1 * * *'
-
-# 当有 push 到仓库和外部触发的时候就运行
-on: repository_dispatch
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
 
 jobs:
   build:
