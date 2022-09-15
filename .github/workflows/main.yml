@@ -8,7 +8,8 @@ name: Hexo Blog CI
 #   schedule:
 #     - cron:  '0 1 * * *'
 
-on: repository_dispatch
+# 当有 push 到仓库和外部触发的时候就运行
+on: [push, repository_dispatch]
 
 jobs:
   build:
